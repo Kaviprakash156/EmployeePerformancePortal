@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.27" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeePerformancePortal.Common\EmployeePerformancePortal.Common.csproj" />
+    <ProjectReference Include="..\EmployeePerformancePortal.Models\EmployeePerformancePortal.Models.csproj" />
+  </ItemGroup>
+
 </Project>

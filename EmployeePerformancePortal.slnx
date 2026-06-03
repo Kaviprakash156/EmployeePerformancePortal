@@ -1,1 +1,10 @@
-<Solution />
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="EmployeePerformancePortal.Business/EmployeePerformancePortal.Business.csproj" />
+  <Project Path="EmployeePerformancePortal.Common/EmployeePerformancePortal.Common.csproj" />
+  <Project Path="EmployeePerformancePortal.Data/EmployeePerformancePortal.Data.csproj" />
+  <Project Path="EmployeePerformancePortal.Models/EmployeePerformancePortal.Models.csproj" />
+  <Project Path="EmployeePerformancePortal.Web/EmployeePerformancePortal.Web.csproj" />
+</Solution>
