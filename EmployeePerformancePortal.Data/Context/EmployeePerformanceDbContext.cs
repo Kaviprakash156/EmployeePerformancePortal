@@ -35,5 +35,8 @@ public class EmployeePerformanceDbContext : DbContext
         modelBuilder.Entity<Employee>()
             .HasIndex(x => x.Email)
             .IsUnique();
+
+        modelBuilder.ApplyConfigurationsFromAssembly(
+            typeof(EmployeePerformanceDbContext).Assembly);
     }
 }
